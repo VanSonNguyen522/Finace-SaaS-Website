@@ -5,7 +5,7 @@ import { NextResponse } from 'next/server'
 
 const isProtectedRoute = createRouteMatcher([
   "/",
-  "/api(.*)"
+  // "/api(.*)"
 ])
 // export default clerkMiddleware((auth, request) => {
 //   if (!isPublicRoute(request)) {
