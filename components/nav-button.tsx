@@ -2,10 +2,11 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { cn } from "@/lib/utils"
 
+
 type Pros = {
     href: string;
     label: string;
-    isActive?: boolean
+    isActive?: boolean;
 }
 
 export const NavButton = ({
