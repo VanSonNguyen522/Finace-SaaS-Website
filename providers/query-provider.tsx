@@ -48,5 +48,5 @@ export function QueryProviders({ children }: Props) {
 
   return (
     <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
-  )
-}
+  );
+};
